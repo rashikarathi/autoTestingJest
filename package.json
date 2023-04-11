@@ -1,0 +1,16 @@
+{
+    "name": "auto-testing-jest",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {"test": "jest"},
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "supertest": "^6.3.3"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+          "/node_modules/"
+        ]
+      }
+}
